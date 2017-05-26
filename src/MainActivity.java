@@ -6,7 +6,7 @@ import java.sql.SQLException;
  */
 public class MainActivity {
     public static void main(String[] args) throws SQLException {
-        JFrame frame = new JFrame("오락실 정산기");
+        JFrame frame = new JFrame("보드텔 관리기");
         frame.setContentPane(new Main().moneyView);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setResizable(true);

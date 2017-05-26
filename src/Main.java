@@ -2,17 +2,16 @@ import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
 import java.awt.event.*;
 import java.sql.*;
-import java.util.Date;
 import java.util.Vector;
 
 /**
  * Created by sigae on 5/12/16.
  */
 public class Main extends JFrame {
-    private JTextField Field1000;
-    private JTextField Field5000;
-    private JTextField Field10000;
-    private JTextField errorfield;
+    private JTextField inDate;
+    private JTextField much;
+    private JTextField part;
+    private JTextField inNAME;
     private JButton clearButton;
     private JButton istbt;
     private DefaultTableModel model;
@@ -35,26 +34,25 @@ public class Main extends JFrame {
             //}
         //});
 
-        String[] header = new String[]{"이름", "입실", "퇴실", "인원"};
+        String[] header = new String[]{"누적","이름", "입실일자", "숙박일수", "추가인원"};
         String[][] data = null;
 
-        Field1000.addFocusListener(new changeListener());
-        Field5000.addFocusListener(new changeListener());
-        Field10000.addFocusListener(new changeListener());
-        errorfield.addFocusListener(new changeListener());
+        inDate.addFocusListener(new changeListener());
+        much.addFocusListener(new changeListener());
+        part.addFocusListener(new changeListener());
+        inNAME.addFocusListener(new changeListener());
 
         clearButton.addActionListener(e -> {
-            JTextField arr[] = { Field1000, Field5000, Field10000, errorfield};
-            for (int i=0;i<7;i++)
+            JTextField arr[] = {inNAME ,inDate, much, part};
+            for (int i=0;i<4;i++)
                 arr[i].setText("");});
 
         istbt.addActionListener(e -> {
             try {
                 Connection con = dbconnect.makeConnection();
-                Date dt =  new Date();
 
-                String sq = "INSERT INTO coin.work(worker, date, diff) VALUES";
-                //sq+="('" + getWorker() + "','" + dt.toString() + "','"+getDiff()+"')";
+                String sq = "INSERT INTO coin.work(name, date, much, part) VALUES";
+                sq+="('" + getWorker() + "','" + getDate() + "','"+getMUCH()+ "','"+getPart()+"')";
 
                 PreparedStatement stmt = con.prepareStatement(sq);
                 int i =stmt.executeUpdate();
@@ -88,6 +86,22 @@ public class Main extends JFrame {
 
     }
 
+    private String getWorker() {
+        return inNAME.getText();
+    }
+
+    private String getDate() {
+        return inDate.getText();
+    }
+
+    private String getMUCH() {
+        return much.getText();
+    }
+
+    private String getPart() {
+        return part.getText();
+    }
+
     private class CustomTableModel extends DefaultTableModel {
         public CustomTableModel(Object[][] data, Object[] columnNames) {
             super(data, columnNames);
@@ -104,12 +118,11 @@ public class Main extends JFrame {
         @Override
         public void focusLost(FocusEvent e) {
             super.focusLost(e);
-            change_value();
         }
     }
 
     private void select() {
-        String sql = "SELECT id, date, worker, diff FROM coin.work;";
+        String sql = "SELECT  id,name , date, much, part FROM coin.work;";
         ResultSet rs = null;
         PreparedStatement stmt = null;
 
@@ -122,9 +135,10 @@ public class Main extends JFrame {
             while (rs.next()) {
                 Vector<String> cont = new Vector<>();
                 cont.add(rs.getString("id"));
+                cont.add(rs.getString("name"));
                 cont.add(rs.getString("date"));
-                cont.add(rs.getString("worker"));
-                cont.add(rs.getString("diff"));
+                cont.add(rs.getString("much"));
+                cont.add(rs.getString("part"));
                 model.addRow(cont);
             }
 
@@ -160,26 +174,6 @@ public class Main extends JFrame {
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
-    private void change_value() {
-        int error = Integer.parseInt(errorfield.getText());
-        int coin[] = {0, 0};
-        int bill[] = {0, 0, 0};
-        JTextField attr[] = {Field1000, Field5000, Field10000};
-        int money;
-        for(int i = 0; i < 5; i++) {
-            money = Integer.parseInt(attr[i].getText());
-
-            if (i < 2)
-                coin[i] = money;
-            else
-                bill[i - 2] = money;
-
-        }
-
-
-
-
     }
 
 

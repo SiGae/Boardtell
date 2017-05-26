@@ -8,9 +8,10 @@ import java.sql.SQLException;
  */
 public class dbconnect {
     public static Connection makeConnection() {
-        String url = "jdbc:mysql://kimsigae.com:3306/coin";
-        String id = "root";
-        String pw = "5607";
+        dbconnect_private pri = new dbconnect_private();
+        String url = pri.url;
+        String id = pri.id;
+        String pw = pri.pw;
 
         Connection con = null;
         try {

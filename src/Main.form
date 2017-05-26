@@ -15,7 +15,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="입실"/>
+          <text value="입실날짜"/>
         </properties>
       </component>
       <component id="df91d" class="javax.swing.JLabel">
@@ -25,7 +25,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="퇴실"/>
+          <text value="숙박일수"/>
         </properties>
       </component>
       <component id="7553d" class="javax.swing.JLabel">
@@ -38,27 +38,27 @@
           <text value="인원"/>
         </properties>
       </component>
-      <component id="2c395" class="javax.swing.JTextField" binding="Field1000">
+      <component id="2c395" class="javax.swing.JTextField" binding="inDate">
         <constraints>
           <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="133" height="31"/>
           </grid>
         </constraints>
         <properties>
-          <text value="0"/>
+          <text value=""/>
         </properties>
       </component>
-      <component id="2ca3e" class="javax.swing.JTextField" binding="Field5000">
+      <component id="2ca3e" class="javax.swing.JTextField" binding="much">
         <constraints>
           <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="133" height="31"/>
           </grid>
         </constraints>
         <properties>
-          <text value="0"/>
+          <text value=""/>
         </properties>
       </component>
-      <component id="e1f7e" class="javax.swing.JTextField" binding="Field10000">
+      <component id="e1f7e" class="javax.swing.JTextField" binding="part">
         <constraints>
           <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="133" height="31"/>
@@ -113,14 +113,14 @@
           <text value="이름"/>
         </properties>
       </component>
-      <component id="d535" class="javax.swing.JTextField" binding="errorfield">
+      <component id="d535" class="javax.swing.JTextField" binding="inNAME">
         <constraints>
           <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="133" height="31"/>
           </grid>
         </constraints>
         <properties>
-          <text value="0"/>
+          <text value=""/>
         </properties>
       </component>
     </children>
