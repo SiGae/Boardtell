@@ -122,7 +122,7 @@ public class Main extends JFrame {
     }
 
     private void select() {
-        String sql = "SELECT  id,name , date, much, part FROM coin.work;";
+        String sql = "SELECT  id,name , date, much, part FROM coin.work ORDER BY date;";
         ResultSet rs = null;
         PreparedStatement stmt = null;
 

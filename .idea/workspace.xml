@@ -5,16 +5,21 @@
   </component>
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="complete:jar" />
+      <artifact name="Homework:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d2c09e0-0051-4d5a-ac3a-024d64c56aa1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/dbconnect_private.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/.idea/artifacts/complete_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Homework_jar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Homework/Main$1.class" afterPath="$PROJECT_DIR$/out/production/Homework/Main$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Homework/Main$CustomTableModel.class" afterPath="$PROJECT_DIR$/out/production/Homework/Main$CustomTableModel.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Homework/Main$changeListener.class" afterPath="$PROJECT_DIR$/out/production/Homework/Main$changeListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Homework/Main.class" afterPath="$PROJECT_DIR$/out/production/Homework/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Homework/MainActivity.class" afterPath="$PROJECT_DIR$/out/production/Homework/MainActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Homework/dbconnect.class" afterPath="$PROJECT_DIR$/out/production/Homework/dbconnect.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.form" afterPath="$PROJECT_DIR$/src/Main.form" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/MainActivity.java" afterPath="$PROJECT_DIR$/src/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dbconnect.java" afterPath="$PROJECT_DIR$/src/dbconnect.java" />
     </list>
     <ignored path="Homework-master.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/src/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="323">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -67,8 +72,8 @@
       <file leaf-file-name="dbconnect.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dbconnect.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
+            <state relative-caret-position="304">
+              <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -78,7 +83,7 @@
         <entry file="file://$PROJECT_DIR$/src/dbconnect_private.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="152">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -87,15 +92,18 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+            <state relative-caret-position="309">
+              <caret line="30" column="63" lean-forward="true" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2372#2702#0" expanded="true" />
                 <element signature="e#2701#2702#0" expanded="true" />
-                <marker date="1495803698808" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
-                <marker date="1495803698808" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
-                <marker date="1495803698808" expanded="true" signature="4636:4667" ph="DELETE FROM " />
+                <element signature="e#2762#2763#0" expanded="true" />
+                <element signature="e#2801#2802#0" expanded="true" />
+                <marker date="1495888694924" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
+                <marker date="1495888694924" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
+                <marker date="1495888694924" expanded="true" signature="3540:3603" ph="SELECT id,na... " />
+                <marker date="1495888694924" expanded="true" signature="4650:4681" ph="DELETE FROM " />
               </folding>
             </state>
           </provider>
@@ -156,10 +164,10 @@
         <option value="$PROJECT_DIR$/src/qqq.java" />
         <option value="$PROJECT_DIR$/src/MainActivity.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/6d581765-4e07-4d5e-b5cc-f5cca50607d7/console.sql" />
-        <option value="$PROJECT_DIR$/src/Main.form" />
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/dbconnect_private.java" />
         <option value="$PROJECT_DIR$/src/dbconnect.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Main.form" />
       </list>
     </option>
   </component>
@@ -203,6 +211,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -233,12 +242,11 @@
       </pane>
       <pane id="Scratches" />
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/포트폴리오/project/java 프로그래밍(2016년 1학기)/aa/mysql-connector-java-5.1.39-bin.jar" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/asdf" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -484,25 +492,28 @@
       <workItem from="1495716962196" duration="7703000" />
       <workItem from="1495726192145" duration="565000" />
       <workItem from="1495811143086" duration="82000" />
+      <workItem from="1495888661460" duration="875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10533000" />
+    <option name="totallyTimeSpent" value="11408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.346856" sideWeight="0.5027408" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3458418" sideWeight="0.4972592" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3451417" sideWeight="0.4972592" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34176534" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13616793" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32992464" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962482" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -510,7 +521,6 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3275862" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39923468" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -546,9 +556,12 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2372#2702#0" expanded="true" />
             <element signature="e#2701#2702#0" expanded="true" />
-            <marker date="1495803698808" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
-            <marker date="1495803698808" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
-            <marker date="1495803698808" expanded="true" signature="4636:4667" ph="DELETE FROM " />
+            <element signature="e#2762#2763#0" expanded="true" />
+            <element signature="e#2801#2802#0" expanded="true" />
+            <marker date="1495888694924" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
+            <marker date="1495888694924" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
+            <marker date="1495888694924" expanded="true" signature="3540:3603" ph="SELECT id,na... " />
+            <marker date="1495888694924" expanded="true" signature="4650:4681" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -569,9 +582,12 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2372#2702#0" expanded="true" />
             <element signature="e#2701#2702#0" expanded="true" />
-            <marker date="1495803698808" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
-            <marker date="1495803698808" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
-            <marker date="1495803698808" expanded="true" signature="4636:4667" ph="DELETE FROM " />
+            <element signature="e#2762#2763#0" expanded="true" />
+            <element signature="e#2801#2802#0" expanded="true" />
+            <marker date="1495888694924" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
+            <marker date="1495888694924" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
+            <marker date="1495888694924" expanded="true" signature="3540:3603" ph="SELECT id,na... " />
+            <marker date="1495888694924" expanded="true" signature="4650:4681" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -592,9 +608,12 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2372#2702#0" expanded="true" />
             <element signature="e#2701#2702#0" expanded="true" />
-            <marker date="1495803698808" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
-            <marker date="1495803698808" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
-            <marker date="1495803698808" expanded="true" signature="4636:4667" ph="DELETE FROM " />
+            <element signature="e#2762#2763#0" expanded="true" />
+            <element signature="e#2801#2802#0" expanded="true" />
+            <marker date="1495888694924" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
+            <marker date="1495888694924" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
+            <marker date="1495888694924" expanded="true" signature="3540:3603" ph="SELECT id,na... " />
+            <marker date="1495888694924" expanded="true" signature="4650:4681" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -615,9 +634,12 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2372#2702#0" expanded="true" />
             <element signature="e#2701#2702#0" expanded="true" />
-            <marker date="1495803698808" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
-            <marker date="1495803698808" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
-            <marker date="1495803698808" expanded="true" signature="4636:4667" ph="DELETE FROM " />
+            <element signature="e#2762#2763#0" expanded="true" />
+            <element signature="e#2801#2802#0" expanded="true" />
+            <marker date="1495888694924" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
+            <marker date="1495888694924" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
+            <marker date="1495888694924" expanded="true" signature="3540:3603" ph="SELECT id,na... " />
+            <marker date="1495888694924" expanded="true" signature="4650:4681" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -645,9 +667,12 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2372#2702#0" expanded="true" />
             <element signature="e#2701#2702#0" expanded="true" />
-            <marker date="1495803698808" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
-            <marker date="1495803698808" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
-            <marker date="1495803698808" expanded="true" signature="4636:4667" ph="DELETE FROM " />
+            <element signature="e#2762#2763#0" expanded="true" />
+            <element signature="e#2801#2802#0" expanded="true" />
+            <marker date="1495888694924" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
+            <marker date="1495888694924" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
+            <marker date="1495888694924" expanded="true" signature="3540:3603" ph="SELECT id,na... " />
+            <marker date="1495888694924" expanded="true" signature="4650:4681" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -676,9 +701,12 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2372#2702#0" expanded="true" />
             <element signature="e#2701#2702#0" expanded="true" />
-            <marker date="1495803698808" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
-            <marker date="1495803698808" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
-            <marker date="1495803698808" expanded="true" signature="4636:4667" ph="DELETE FROM " />
+            <element signature="e#2762#2763#0" expanded="true" />
+            <element signature="e#2801#2802#0" expanded="true" />
+            <marker date="1495888694924" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
+            <marker date="1495888694924" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
+            <marker date="1495888694924" expanded="true" signature="3540:3603" ph="SELECT id,na... " />
+            <marker date="1495888694924" expanded="true" signature="4650:4681" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -707,9 +735,12 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2372#2702#0" expanded="true" />
             <element signature="e#2701#2702#0" expanded="true" />
-            <marker date="1495803698808" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
-            <marker date="1495803698808" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
-            <marker date="1495803698808" expanded="true" signature="4636:4667" ph="DELETE FROM " />
+            <element signature="e#2762#2763#0" expanded="true" />
+            <element signature="e#2801#2802#0" expanded="true" />
+            <marker date="1495888694924" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
+            <marker date="1495888694924" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
+            <marker date="1495888694924" expanded="true" signature="3540:3603" ph="SELECT id,na... " />
+            <marker date="1495888694924" expanded="true" signature="4650:4681" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -737,9 +768,12 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2372#2702#0" expanded="true" />
             <element signature="e#2701#2702#0" expanded="true" />
-            <marker date="1495803698808" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
-            <marker date="1495803698808" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
-            <marker date="1495803698808" expanded="true" signature="4636:4667" ph="DELETE FROM " />
+            <element signature="e#2762#2763#0" expanded="true" />
+            <element signature="e#2801#2802#0" expanded="true" />
+            <marker date="1495888694924" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
+            <marker date="1495888694924" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
+            <marker date="1495888694924" expanded="true" signature="3540:3603" ph="SELECT id,na... " />
+            <marker date="1495888694924" expanded="true" signature="4650:4681" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -767,9 +801,12 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2372#2702#0" expanded="true" />
             <element signature="e#2701#2702#0" expanded="true" />
-            <marker date="1495803698808" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
-            <marker date="1495803698808" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
-            <marker date="1495803698808" expanded="true" signature="4636:4667" ph="DELETE FROM " />
+            <element signature="e#2762#2763#0" expanded="true" />
+            <element signature="e#2801#2802#0" expanded="true" />
+            <marker date="1495888694924" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
+            <marker date="1495888694924" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
+            <marker date="1495888694924" expanded="true" signature="3540:3603" ph="SELECT id,na... " />
+            <marker date="1495888694924" expanded="true" signature="4650:4681" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -797,9 +834,12 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2372#2702#0" expanded="true" />
             <element signature="e#2701#2702#0" expanded="true" />
-            <marker date="1495803698808" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
-            <marker date="1495803698808" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
-            <marker date="1495803698808" expanded="true" signature="4636:4667" ph="DELETE FROM " />
+            <element signature="e#2762#2763#0" expanded="true" />
+            <element signature="e#2801#2802#0" expanded="true" />
+            <marker date="1495888694924" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
+            <marker date="1495888694924" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
+            <marker date="1495888694924" expanded="true" signature="3540:3603" ph="SELECT id,na... " />
+            <marker date="1495888694924" expanded="true" signature="4650:4681" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -934,6 +974,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbconnect.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbconnect_private.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
@@ -945,41 +1009,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dbconnect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="25" column="9" lean-forward="true" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dbconnect_private.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="90" column="5" lean-forward="true" selection-start-line="90" selection-start-column="5" selection-end-line="90" selection-end-column="5" />
+        <state relative-caret-position="309">
+          <caret line="30" column="63" lean-forward="true" selection-start-line="30" selection-start-column="63" selection-end-line="30" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2372#2702#0" expanded="true" />
             <element signature="e#2701#2702#0" expanded="true" />
-            <marker date="1495803698808" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
-            <marker date="1495803698808" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
-            <marker date="1495803698808" expanded="true" signature="4636:4667" ph="DELETE FROM " />
+            <element signature="e#2762#2763#0" expanded="true" />
+            <element signature="e#2801#2802#0" expanded="true" />
+            <marker date="1495888694924" expanded="true" signature="1659:1711" ph="INSERT INTO coin.work... " />
+            <marker date="1495888694924" expanded="true" signature="3540:3589" ph="SELECT id,na... " />
+            <marker date="1495888694924" expanded="true" signature="3540:3603" ph="SELECT id,na... " />
+            <marker date="1495888694924" expanded="true" signature="4650:4681" ph="DELETE FROM " />
           </folding>
         </state>
       </provider>
@@ -990,11 +1033,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>complete:jar</last-edited>
+          <last-edited>Homework:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

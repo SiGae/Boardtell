@@ -35,7 +35,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="인원"/>
+          <text value="추가인원"/>
         </properties>
       </component>
       <component id="2c395" class="javax.swing.JTextField" binding="inDate">

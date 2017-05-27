@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="complete:jar">
-    <output-path>$PROJECT_DIR$/../aa</output-path>
+  <artifact type="jar" name="Homework:jar">
+    <output-path>$USER_HOME$/Downloads/asdf</output-path>
     <root id="archive" name="Homework.jar">
       <element id="module-output" name="Homework" />
       <element id="library" level="project" name="apidocs" />
